@@ -3,7 +3,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class TreeSetIterator {
-    public static void maim(String[] args){
+    public static void main(String[] args){
         Set<Integer>numbers=new TreeSet<>();
         numbers.add(45);
         numbers.add(3);
