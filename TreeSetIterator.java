@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -9,6 +10,11 @@ public class TreeSetIterator {
         numbers.add(21);
         numbers.add(150);
         numbers.add(1);
+
+        Iterator<Integer>numIterator=numbers.iterator();
+        while (numIterator.hasNext());
+        int number=numIterator.next();
+        System.out.println(number);
 
     }
 
