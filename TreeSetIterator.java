@@ -12,9 +12,10 @@ public class TreeSetIterator {
         numbers.add(1);
 
         Iterator<Integer>numIterator=numbers.iterator();
-        while (numIterator.hasNext());
-        int number=numIterator.next();
-        System.out.println(number);
+        while (numIterator.hasNext()) {
+            int number = numIterator.next();
+            System.out.println(number);
+        }
 
     }
 
