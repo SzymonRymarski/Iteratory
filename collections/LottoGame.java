@@ -20,6 +20,6 @@ public class LottoGame {
         Lotto lotto=new Lotto();
         lotto.randomize();
         int found=lotto.checkResult(userNumbers);
-        System.out.println("Trafione liczby"+found);
+        System.out.println("Trafione liczby "+found);
     }
 }

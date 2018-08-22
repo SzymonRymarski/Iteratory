@@ -32,8 +32,9 @@ public class Lotto {
 
         int found=0;
         for(int i=0;i<6;i++){
-            if(lottoResult.contains(userNumbers.get(i)));
-            found++;
+            if(lottoResult.contains(userNumbers.get(i))) {
+                found++;
+            }
         }
         return found;
 
