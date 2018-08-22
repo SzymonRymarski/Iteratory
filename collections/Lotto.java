@@ -26,7 +26,7 @@ public class Lotto {
         List<Integer>lottoResult=numbers.subList(0,6);
         System.out.println("Wyniki losowania");
         for(Integer num:lottoResult){
-            System.out.println(num+" ");
+            System.out.print(num+" ");
         }
         System.out.println();
 
